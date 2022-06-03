@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>day 10 project</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <script src="script.js"></script>
-        <h1>
-            BEGINNING OF MY DAY 10 PROJECT
-        </h1>
-    </body>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "script.js"></script>
+    <meta charset="utf-8">
+    <title>
+	    MY DIARY
+    </title>
+</head>
+<body>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">News</a></li>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">About</a></li>
+	</ul>
+	<form action = "?" id = "input" method = 'post' name = 'input' onsubmit="return MyFunction();">
+	    <fieldset>
+			<legend> Log In </legend>
+	        <div id = "field">
+		        <p>
+		 	        Username:
+		        </p>
+		 	        <input type="text" name="usrname" required size = "40">
+		        <p>
+		 	        Password:
+		        </p>
+		        <input type = "password" name = "password" required size = "40">
+		        <button class="button" onclick = 'return MyFunction()'>Log in</button>
+	        </div>
+	    </fieldset>
+    </form>
+    <p class = 'bottom'>
+		<small>
+		    don't have an account? sign up <a href = "index.html"> here. </a>
+	    </small>
+	</p>
 
+</body>
 </html>
