@@ -30,29 +30,22 @@ for easy reference
 - Create a Pull request
 * Open the folder location on terminal and use the following command to run app:
 
-## How To Run It
->  $ pip install -r requirements.txt
-To install all requirements
 
 ## Live Link
 Or you can access the web application directly via this [LINK.](https://muliro.github.io/phase-0-project/)
 *****
 ## Dependencies
-- Package Name
-- Package Name
-- Package Name
-- Package Name
+- Node.js
 *****
 ## Technologies Used
 1. HTML
-2. MdBootstrap
 3. HTML
 4. CSS
 5. JavaScript
 *****
 ## Contact Information
-* Email : example@gmail.com
+* Email : mulirokhaemba@gmail.com
 *****
 ## [License](LICENSE)
 MIT License
-Copyright (c) YEAR Author
+Copyright (c) 2022 Michael Muliro
